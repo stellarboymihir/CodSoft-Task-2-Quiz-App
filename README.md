@@ -15,8 +15,7 @@ For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 
+https://github.com/stellarboymihir/CodSoft-Task-2-Quiz-App/assets/83822717/2e82a148-8960-4de7-b6dc-1530d0a68614
 
 
-
-https://github.com/stellarboymihir/CodSoft-Task-2-Quiz-App/assets/83822717/438799ac-dcd5-48cc-9cec-47df11e215ae
 
