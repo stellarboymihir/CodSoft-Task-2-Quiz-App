@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:quiz_app/quiz/quiz_screen.dart';
 import 'package:websafe_svg/websafe_svg.dart';
 import 'package:quiz_app/constants.dart';
 
@@ -10,7 +12,8 @@ class WelcomeScreen extends StatelessWidget {
     return Scaffold(
       body: Stack(
         children: [
-          WebsafeSvg.asset('assets/icons/bg.svg'),
+          WebsafeSvg.asset('assets/icons/bg.svg',
+              fit: BoxFit.fill, width: double.infinity),
           SafeArea(
               child: Padding(
             padding: const EdgeInsets.symmetric(horizontal: 20),
@@ -37,7 +40,7 @@ class WelcomeScreen extends StatelessWidget {
                 ),
                 const Spacer(), // 1/6
                 InkWell(
-                  onTap: () {},
+                  onTap: () => Get.to(const QuizScreen()),
                   child: Container(
                     width: double.infinity,
                     alignment: Alignment.center,
